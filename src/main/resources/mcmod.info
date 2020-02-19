@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "cryptors_arms_mod",
+    "name": "Cryptor's arms mod",
+    "description": "A mod from creator of CryptorMod which adds more arms and armor",
+    "version": "1.0.0",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "Cryptor Inc.",
+      "MCreator"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

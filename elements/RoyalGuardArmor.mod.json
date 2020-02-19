@@ -1,0 +1,43 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "royalguardarmor_head",
+    "enableBody": true,
+    "textureBody": "royalguardarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "royalguardarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "royalguardarmor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "armorTextureFile": "royalguardarmor",
+    "helmetName": "Royal Guard Armor Helmet",
+    "bodyName": "Royal Guard Armor Body",
+    "leggingsName": "Royal Guard Armor Leggings",
+    "bootsName": "Royal Guard Armor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 10,
+    "damageValueBody": 15,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 10,
+    "enchantability": 10,
+    "toughness": 5.0
+  }
+}

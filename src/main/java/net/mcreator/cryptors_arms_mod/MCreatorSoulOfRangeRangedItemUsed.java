@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @Elementscryptors_arms_mod.ModElement.Tag
 public class MCreatorSoulOfRangeRangedItemUsed extends Elementscryptors_arms_mod.ModElement {
 	public MCreatorSoulOfRangeRangedItemUsed(Elementscryptors_arms_mod instance) {
-		super(instance, 1);
+		super(instance, 9);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

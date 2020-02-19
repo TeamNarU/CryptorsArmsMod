@@ -1,12 +1,12 @@
 {
   "id_map": {
-    "ENTITY": 2
+    "ENTITY": 3
   },
   "mod_elements": [
     {
       "name": "ModTab",
       "type": "tab",
-      "sortid": 1,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -14,7 +14,7 @@
     {
       "name": "SoulShooted",
       "type": "item",
-      "sortid": 1,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -22,7 +22,7 @@
     {
       "name": "SoulOfRangeRangedItemUsed",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -38,7 +38,7 @@
     {
       "name": "SoulOfRange",
       "type": "gun",
-      "sortid": 1,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -48,7 +48,7 @@
     {
       "name": "CryptorsSoul",
       "type": "item",
-      "sortid": 2,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -56,7 +56,7 @@
     {
       "name": "CryptorsSoulItemInInventoryTick",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -72,7 +72,7 @@
     {
       "name": "RoyalGuardArmor",
       "type": "armor",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -86,7 +86,7 @@
     {
       "name": "CultMana",
       "type": "item",
-      "sortid": 5,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -94,7 +94,7 @@
     {
       "name": "RoyalGuardSword",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -102,7 +102,7 @@
     {
       "name": "WandCultRangedItemUsed",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -118,11 +118,51 @@
     {
       "name": "WandCult",
       "type": "gun",
-      "sortid": 7,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {
         "0": 2
+      }
+    },
+    {
+      "name": "BulletCyber",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BulletShooted",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberGun",
+      "type": "gun",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "CryptorXArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
       }
     }
   ],
@@ -131,16 +171,23 @@
   "language_map": {
     "en_us": {
       "item.royalguardarmorbody.name": "Royal Guard Armor Body",
+      "item.bulletshooted.name": "Bullet1",
+      "item.royalguardarmorlegs.name": "Royal Guard Armor Leggings",
+      "item.cryptorssoul.name": "Cryptor\u0027s Soul",
+      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
+      "item.cryptorxarmorhelmet.name": "Cryptor X Armor Helmet",
+      "item.cybergun.name": "Cyber Gun",
+      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
       "item.royalguardarmorhelmet.name": "Royal Guard Armor Helmet",
       "item.royalguardsword.name": "Royal Guard Sword",
       "item.royalguardarmorboots.name": "Royal Guard Armor Boots",
       "itemGroup.tabmodtab": "Cryptor\u0027s arms mod",
-      "item.royalguardarmorlegs.name": "Royal Guard Armor Leggings",
       "item.cultmana.name": "Cult Mana",
       "item.wandcult.name": "Wand Cult",
-      "item.soulshooted.name": "Soul Arrow",
       "item.soulofrange.name": "Soul Of Range",
-      "item.cryptorssoul.name": "Cryptor\u0027s Soul"
+      "item.soulshooted.name": "Soul Arrow",
+      "item.bulletcyber.name": "Cyber Bullet ",
+      "item.cryptorxarmorbody.name": "Cryptor X Armor Body"
     }
   },
   "workspaceSettings": {
@@ -149,7 +196,7 @@
     "version": "1.0.0",
     "description": "A mod from creator of CryptorMod which adds more arms and armor",
     "author": "Cryptor Inc.",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://sites.google.com/view/cryptor-inc/main",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

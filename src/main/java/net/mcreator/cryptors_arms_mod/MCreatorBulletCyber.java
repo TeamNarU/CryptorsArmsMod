@@ -6,22 +6,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
-import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import java.util.List;
+import com.google.common.collect.Multimap;
 
 @Elementscryptors_arms_mod.ModElement.Tag
-public class MCreatorCultMana extends Elementscryptors_arms_mod.ModElement {
-	@GameRegistry.ObjectHolder("cryptors_arms_mod:cultmana")
+public class MCreatorBulletCyber extends Elementscryptors_arms_mod.ModElement {
+	@GameRegistry.ObjectHolder("cryptors_arms_mod:bulletcyber")
 	public static final Item block = null;
 
-	public MCreatorCultMana(Elementscryptors_arms_mod instance) {
-		super(instance, 4);
+	public MCreatorBulletCyber(Elementscryptors_arms_mod instance) {
+		super(instance, 12);
 	}
 
 	@Override
@@ -32,15 +33,15 @@ public class MCreatorCultMana extends Elementscryptors_arms_mod.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("cryptors_arms_mod:cultmana", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("cryptors_arms_mod:bulletcyber", "inventory"));
 	}
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("cultmana");
-			setRegistryName("cultmana");
+			setUnlocalizedName("bulletcyber");
+			setRegistryName("bulletcyber");
 			setCreativeTab(MCreatorModTab.tab);
 		}
 
@@ -60,9 +61,14 @@ public class MCreatorCultMana extends Elementscryptors_arms_mod.ModElement {
 		}
 
 		@Override
-		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add("A mana from cultists");
+		public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
+			Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
+			if (slot == EntityEquipmentSlot.MAINHAND) {
+				multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(), new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Item modifier",
+						(double) -3, 0));
+				multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(), new AttributeModifier(ATTACK_SPEED_MODIFIER, "Item modifier", -2.4, 0));
+			}
+			return multimap;
 		}
 	}
 }

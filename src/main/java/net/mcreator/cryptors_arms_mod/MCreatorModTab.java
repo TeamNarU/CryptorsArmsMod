@@ -9,7 +9,7 @@ import net.minecraft.creativetab.CreativeTabs;
 @Elementscryptors_arms_mod.ModElement.Tag
 public class MCreatorModTab extends Elementscryptors_arms_mod.ModElement {
 	public MCreatorModTab(Elementscryptors_arms_mod instance) {
-		super(instance, 1);
+		super(instance, 8);
 	}
 
 	@Override

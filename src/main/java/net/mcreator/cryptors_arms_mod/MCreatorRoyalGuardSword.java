@@ -26,7 +26,7 @@ public class MCreatorRoyalGuardSword extends Elementscryptors_arms_mod.ModElemen
 	public static final Item block = null;
 
 	public MCreatorRoyalGuardSword(Elementscryptors_arms_mod instance) {
-		super(instance, 6);
+		super(instance, 1);
 	}
 
 	@Override

@@ -42,7 +42,7 @@ public class MCreatorSoulOfRange extends Elementscryptors_arms_mod.ModElement {
 	public static final int ENTITYID = 1;
 
 	public MCreatorSoulOfRange(Elementscryptors_arms_mod instance) {
-		super(instance, 1);
+		super(instance, 5);
 	}
 
 	@Override

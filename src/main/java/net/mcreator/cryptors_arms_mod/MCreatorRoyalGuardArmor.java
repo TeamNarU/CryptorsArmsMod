@@ -24,7 +24,7 @@ public class MCreatorRoyalGuardArmor extends Elementscryptors_arms_mod.ModElemen
 	public static final Item boots = null;
 
 	public MCreatorRoyalGuardArmor(Elementscryptors_arms_mod instance) {
-		super(instance, 4);
+		super(instance, 3);
 	}
 
 	@Override

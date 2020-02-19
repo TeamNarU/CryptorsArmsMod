@@ -24,7 +24,7 @@ public class MCreatorCryptorsSoul extends Elementscryptors_arms_mod.ModElement {
 	public static final Item block = null;
 
 	public MCreatorCryptorsSoul(Elementscryptors_arms_mod instance) {
-		super(instance, 2);
+		super(instance, 7);
 	}
 
 	@Override

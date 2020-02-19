@@ -7,7 +7,7 @@ import net.minecraft.entity.Entity;
 @Elementscryptors_arms_mod.ModElement.Tag
 public class MCreatorWandCultRangedItemUsed extends Elementscryptors_arms_mod.ModElement {
 	public MCreatorWandCultRangedItemUsed(Elementscryptors_arms_mod instance) {
-		super(instance, 7);
+		super(instance, 11);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

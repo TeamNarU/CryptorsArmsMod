@@ -15,7 +15,7 @@ import net.minecraft.entity.Entity;
 @Elementscryptors_arms_mod.ModElement.Tag
 public class MCreatorCryptorsSoulItemInInventoryTick extends Elementscryptors_arms_mod.ModElement {
 	public MCreatorCryptorsSoulItemInInventoryTick(Elementscryptors_arms_mod instance) {
-		super(instance, 3);
+		super(instance, 10);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

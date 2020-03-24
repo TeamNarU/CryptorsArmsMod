@@ -164,6 +164,78 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "SoulRangeCraft",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WandCultCraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RGHelmetCraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RgHelmetCraft2",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RGChestplateCraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RGLeggingsCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RGBootsCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RGBootsCraft2",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -172,6 +244,7 @@
     "en_us": {
       "item.royalguardarmorbody.name": "Royal Guard Armor Body",
       "item.bulletshooted.name": "Bullet1",
+      "item.cringot.name": "Unique Ingot",
       "item.royalguardarmorlegs.name": "Royal Guard Armor Leggings",
       "item.cryptorssoul.name": "Cryptor\u0027s Soul",
       "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
@@ -196,8 +269,8 @@
     "version": "1.0.0",
     "description": "A mod from creator of CryptorMod which adds more arms and armor",
     "author": "Cryptor Inc.",
-    "websiteURL": "https://sites.google.com/view/cryptor-inc/main",
-    "disableForgeVersionCheck": true,
+    "websiteURL": "https://sites.google.com/view/cryptor-inc",
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],

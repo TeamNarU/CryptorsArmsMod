@@ -1,0 +1,42 @@
+{
+  "group": "cryptors_arms_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "1": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "2": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "3": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "5": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "7": {
+      "item": "minecraft:dye",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "cryptors_arms_mod:soulofrange",
+    "count": 1
+  }
+}

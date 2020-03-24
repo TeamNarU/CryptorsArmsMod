@@ -1,0 +1,26 @@
+{
+  "group": "cryptors_arms_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptors_arms_mod:cringot"
+    },
+    "2": {
+      "item": "cryptors_arms_mod:cringot"
+    },
+    "3": {
+      "item": "cryptors_arms_mod:cringot"
+    },
+    "5": {
+      "item": "cryptors_arms_mod:cringot"
+    }
+  },
+  "result": {
+    "item": "cryptors_arms_mod:royalguardarmorboots",
+    "count": 1
+  }
+}

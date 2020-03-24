@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:RoyalGuardArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrIngot"
+      },
+      {
+        "value": "CUSTOM:CrIngot"
+      },
+      {
+        "value": "CUSTOM:CrIngot"
+      },
+      {
+        "value": "CUSTOM:CrIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CrIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "rghelmetcraft",
+    "namespace": "mod"
+  }
+}

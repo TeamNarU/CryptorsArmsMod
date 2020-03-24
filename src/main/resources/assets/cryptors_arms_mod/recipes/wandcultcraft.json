@@ -1,0 +1,24 @@
+{
+  "group": "cryptors_arms_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:end_crystal"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "cryptors_arms_mod:wandcult",
+    "count": 1
+  }
+}
